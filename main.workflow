@@ -12,7 +12,4 @@ jobs:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          COMMIT_MESSAGE: "My commit message to update badges"
           CREDLY_USER: PARK CHANHEUM
-          CREDLY_SORT: POPULAR
